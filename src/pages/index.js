@@ -8,10 +8,10 @@ import TypeWriterEffect from 'react-typewriter-effect'
 // markup
 const IndexPage = () => {
   return (
-    <main className="flex justify-end h-screen bg-black">
+    <main className="flex justify-end h-screen bg-black px-40">
       <title>Home Page</title>
       <div className="justify-center p-40">
-      <h1 className="text-white text-4xl pt-40 pr-40"> Welcome to Otaku Basho</h1>
+      <h1 className="text-white text-4xl pt-40 p-30"> Welcome to Otaku Basho</h1>
       <strong className="text-white text-2xl pt-20 pr-40">
 
       <TypeWriterEffect 
@@ -24,9 +24,9 @@ const IndexPage = () => {
           "Let's build it together !",
 
         ]}
+        loop={true}
         multiTextDelay={1000}
         typeSpeed={30}
-        loop={true}
         />
       </strong>
       </div>
