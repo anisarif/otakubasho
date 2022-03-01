@@ -24,7 +24,9 @@
     "gatsby-source-filesystem": "^4.8.1",
     "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-typewriter-effect": "^1.1.0",
+    "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

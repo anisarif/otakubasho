@@ -1,5 +1,8 @@
 import * as React from "react"
 import { StaticImage } from 'gatsby-plugin-image'
+import TypeWriterEffect from 'react-typewriter-effect'
+
+
 
 
 // markup
@@ -9,10 +12,23 @@ const IndexPage = () => {
       <title>Home Page</title>
       <div className="justify-center p-40">
       <h1 className="text-white text-4xl pt-40 pr-40"> Welcome to Otaku Basho</h1>
-      <h2 className=" text-pink-300 text-2xl pt-10 pr-40"> The first Web3 anime streaming plateform</h2>
-      <h1 className="text-white text-4xl pt-40 pr-40"> Coming Soon...</h1>
+      <strong className="text-white text-2xl pt-20 pr-40">
 
+      <TypeWriterEffect 
+        startDelay={2000}
+        cursorColor="#FFC0CB"
+        multiText={[
+          "The first Web3 Anime Plateform",
+          "By Otakus, For Otakus",
+          "Decentralised and Owned by the community",
+          "Let's build it together !",
 
+        ]}
+        multiTextDelay={1000}
+        typeSpeed={30}
+        loop={true}
+        />
+      </strong>
       </div>
         <StaticImage className="flex h-screen px-2 m-4 " src={"../images/Otaku2.png"} alt="otaku girl"/>
     </main>
